@@ -306,7 +306,7 @@ OPTIONS:
 | security           | [Security](#security) to each API operation.                                                                               |
 | success            | Success response that separated by spaces. `return code`,`{param type}`,`data type`,`comment`                              |
 | failure            | Failure response that separated by spaces. `return code`,`{param type}`,`data type`,`comment`                              |
-| router             | Failure response that separated by spaces. `path`,`[httpMethod]`                                                           |
+| router             | A [Path Template] of the API operation. `path`,`[httpMethod]`                                                           |
 
 ## Mime Types
 
